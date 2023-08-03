@@ -27,6 +27,9 @@ import projectImage3 from "./assets/projects/project3.jpg";
 import projectImage4 from "./assets/projects/project4.jpg";
 import projectImage5 from "./assets/projects/project5.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
+import projectImage7 from "./assets/projects/project7.jpg";
+import projectImage8 from "./assets/projects/project8.jpg";
+import projectImage9 from "./assets/projects/project9.jpg";
 
 // Logos
 export const logos = {
@@ -73,13 +76,50 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
+    title: "Projecto Back End pagina galeria de imagenes",
+    image: projectImage8,
+    description: `La página de publicación de imágenes es un emocionante proyecto 
+    que busca permitir a los usuarios compartir su creatividad y descubrir nuevas 
+    inspiraciones. Diseñada como un prototipo con fines de estudio, esta aplicación 
+    web utiliza tecnologías como Node.js, Express y MongoDB para brindar una experiencia
+     fluida. 
+    `,
+    techstack: "Html5|Css3|Javascript|Node|Espress|Mongo|Boostrap",
+    previewLink: "https://github.com/leonardo-sandoval/colleming",
+    githubLink: "https://github.com/leonardo-sandoval/colleming",
+  },
+  {
+    title: "Projecto Front End Diseño UI tienda de videojuegos",
+    image: projectImage7,
+    description: `Sitio web, desarrollado con React y una interfaz de usuario intuitiva, 
+    te brindará una experiencia de compra inigualable. Explora nuestro catálogo actualizado 
+    constantemente y descubre los títulos más populares y aclamados por la crítica. Además, 
+    podrás disfrutar de recomendaciones personalizadas y reseñas detalladas 
+    `,
+    techstack: "Html5|Css3|Javascript|React|tailwind",
+    previewLink: "https://github.com/leonardo-sandoval/tiendavideojuegos",
+    githubLink: "https://github.com/leonardo-sandoval/tiendavideojuegos",
+  },
+  {
+    title: "Projecto  Desafio Front end #1",
+    image: projectImage6,
+    description: `Para este primer miniproyecto de HTML/CSS, 
+    reforcé los fundamentos básicos aprendidos del curso "HTML & CSS 
+    Full Course - Beginner to Pro" de SuperSimpleDev que se encuentra
+     en YouTube. Luego reelaboré el componente para que sea más 
+     receptivo y accesible, así como para usar la semántica y los
+    puntos de referencia HTML adecuados..
+    `,
+    techstack: "Html5|Css3",
+    previewLink: "https://rococo-kitsune-d213d1.netlify.app",
+    githubLink: "https://github.com/leonardo-sandoval/QRcode",
+  },
+  {
     title: "Projecto 02  Page loading  Error 404",
     image: projectImage5,
     description: `Una página 404 responsive y muy con un diseño moderno y atractivo, 
     con colores armoniosos y elementos visuales llamativos. Además, se adapta perfectamente a diferentes dispositivos, 
-    como teléfonos móviles y tablets, garantizando una experiencia de usuario óptima. Incluye también mensajes 
-    amigables y creativos que indican que la página buscada no se encuentra, invitando al usuario a explorar otras
-     secciones o a volver a la página principal.
+    como teléfonos móviles y tablets, garantizando una experiencia de usuario óptima. 
     `,
     techstack: "JavaScript|Html5|Css3",
     previewLink: "https://6491fb22bb61d61d7f22ee9d--golden-narwhal-049f8a.netlify.app/",
@@ -103,18 +143,33 @@ export const projectDetails = [
     description: ` aplicación de clima basada en JavaScript que consume una API para brindar 
     a los usuarios información actualizada y precisa sobre las condiciones meteorológicas en tiempo real.
      Con una interfaz intuitiva, 
-    los usuarios pueden obtener fácilmente el pronóstico del clima de su ubicación o de cualquier otra ciudad.
+    los usuarios pueden obtener fácilmente el pronóstico del clima de su ubicación o de cualquier ciudad.
     `,
     techstack: "JavaScript|Html5|Css3",
     previewLink: "https://6490a093781df819d725ef3f--magenta-palmier-375cde.netlify.app/",
     githubLink: "https://github.com/leonardo-sandoval/APPCLIMA-API",
   },
   {
+    title: "Projecto Udemi sitio web estático tienda de cafe ",
+    image: projectImage9,
+    description: ` Este proyecto es una página web estática que ofrece servicios de bebidas calientes,
+     como café, y un servicio de entrega a domicilio. Fue desarrollado como parte de un curso en Udemy y 
+     se basó en una plantilla como referencia. 
+     La página está implementada utilizando HTML, CSS, SCSS, Bootstrap y JavaScript puro,
+   
+
+    `,
+    techstack: "JavaScript|Scss|Php|Bootstrap",
+    previewLink: "https://64cc374003c12f248221d532--delicate-bubblegum-b339a1.netlify.app/",
+    githubLink: "https://github.com/leonardo-sandoval/storecooffee",
+  },
+  {
     title: "Projecto TaskCalendar",
     image: projectImage1,
-    description: ` Es una herramienta indispensable para la gestión del tiempo.
-     Su interfaz intuitiva y la posibilidad de añadir tareas con fechas de inicio y fin, 
-     junto con la personalización de colores, hacen que organizar el horario sea fácil y eficiente. 
+    description: ` Su interfaz intuitiva permite a los usuarios organizar su horario de manera eficiente
+     al poder añadir tareas con fechas de inicio y fin. La posibilidad de personalizar colores facilita 
+     aún más la organización y priorización de actividades. Con esta combinación de características, los usuarios pueden 
+     optimizar su productividad y mejorar su planificación
     `,
     techstack: "JavaScript|PHP|Mysql|Bootstrap",
     previewLink: "https://calendario-production-b6a3.up.railway.app/",
@@ -123,9 +178,10 @@ export const projectDetails = [
   {
     title: "Projecto Tienda virtual Unlimited",
     image: projectImage2,
-    description: ` El proyecto de la tienda online es una solución de 
-    comercio electrónico de código abierto escrita en PHP y basada en MySQL. 
-    Con su enfoque en brindar una experiencia de carrito de compras . 
+    description: ` La tienda en línea es una solución de comercio electrónico de código abierto, 
+    desarrollada en PHP y basada en MySQL, que busca brindar a sus usuarios una experiencia de carrito de compras excepcional.
+     Con un diseño intuitivo y seguro, los clientes pueden explorar una amplia variedad de productos, aprovechar promociones 
+     especiales.
     `,
     techstack: "Html5|Css3|PHP|Mysql|Bootstrap|",
     githubLink: "https://github.com/leonardo-sandoval/proyecto-unlimited-",
